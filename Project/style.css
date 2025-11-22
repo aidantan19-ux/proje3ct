@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    font-family: Arial, Helvetica, 
+    sans-serif ;
+  
+ }
+
+
+
+
+
+
+ /* Home */
+
+ header{
+    background-color: lightblue; 
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+    }
+
+
+
+
+
+    .tab a{
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            padding: 7px 16px;
+            text-align: center;
+            
+    }
+
+    .tab a:hover {
+      border: 2px solid darkblue;
+    }
+
+.why{
+   color: rgba(0, 0, 0, 0.57);
+   border: 1px solid rgba(0, 0, 0, 0.171);
+   margin: 10px;
+   padding: 10px;
+}
+ nav ul{
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+ }
+
+ul{
+   text-align: center;
+   margin-right: 575px;
+}
+ .logo img{
+    width: 100px;
+ }
+
+ .best img{
+   width: 350px;
+ } 
+
+ .pop{
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+ }
+
+ .best{
+   padding-top: 100px;
+ }
+
+
+
+
+
+
+ /* about */
+.back{
+   background-color: lightblue;
+   width: 100%;
+   padding: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+
+}
+
+.our{
+   text-align: center;
+
+
+}
+
+.pro{
+   margin-left: 450px;
+
+}
+
+.porp{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+
+
+
+
+
+
+
+/* contact us */
+.contact{
+   
+   align-content: center;
+   gap: 10px;
+   margin: 100px 1000px 10px 10px;
+   
+}
+
+   .box{
+      border: 0px;
+      background-color: rgba(128, 128, 128, 0.175);
+      padding: 10px;
+   }
+
+ ul li{
+   list-style-type: none;
+}
+.us{
+   background-color: lightblue;
+   color: white;
+   text-align: center;
+   padding: 50px;
+   
+   
+} 
+
+.sub{
+     font-size: 15px;
+       padding: 3.5px 8px;
+       background-color: lightblue;
+       border: none;
+}
+
+.sub:hover {
+     border: 2px solid darkblue;
+}
+
+
+
+
+
+
+
+
+/* product */
+
+.im{
+   padding: 90px;
+}
+
+.di{
+    background-color: lightblue;
+   color: white;
+   text-align: center;
+   padding: 50px;
+}
+
+.button1 {
+        font-size: 15px;
+       padding: 7px 16px;
+       background-color: lightblue;
+       border: none;
+}
+ .button1:hover {
+    border: 2px solid darkblue;
+ }
+
+
+
+
+
+/* footer */
+ 
+
+ footer{
+   padding: 10px;
+   text-align: center;
+ }
+
+
+ 
